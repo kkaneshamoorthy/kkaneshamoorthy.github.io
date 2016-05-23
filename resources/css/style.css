@@ -1,13 +1,75 @@
-#background {
+html {
+  font-family: 'Alegreya Sans', sans-serif;
+  text-align: center;
+}
+
+body {
   width: 100%;
   height: 100%;
   background: url('../images/background-image-1.jpg');
   position: fixed;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   top: 0%;
   left: 0%;
 }
 
-#title {
-  
+#title-container {
+  position: fixed;
+  top: 30%;
+  left: 28%;
+  color: #ffffff;
+  font-size: 3vh;
+  font-size: 3vw;
+  font-family: 'Alegreya Sans', sans-serif;
+  border: 3px #33ccff solid;
+  padding: 2%;
+}
+
+h1 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #FFFFFF;
+  border-bottom-color: rgba(255,255,255,0.35);
+  display: inline-block;
+}
+
+p.lead {
+   text-align: center;
+   color: #727878;
+}
+
+.scroll-down .glyphicon {
+	color: #FFFFFF;
+	font-size: 30px;
+	padding-right: 2px;
+	padding-top: 20px;
+
+	animation-name: wiggle;
+	animation-duration: 1.2s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+
+.scroll-down:hover .glyphicon {
+   padding-top: 30px;
+ }
+
+.scroll-down {
+  height: 80px;
+  width: 110px;
+  position: absolute;
+  bottom: 0px; right: 5%;
+  background-color: #222222;
+  text-align: center;
+  z-index: 6;
+}
+
+ .glyphicon {
+	color: #DFE0E0;
+	font-size: 14px;
+
+	-webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
