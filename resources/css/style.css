@@ -7,7 +7,7 @@ html {
 
 #background-fixed-image {
   position: relative;
-  height: 350px;
+  height: 450px;
   background: url('../images/background-image-1.jpg');
   background-size: auto 600px;
   background-position: top center;
@@ -18,7 +18,7 @@ html {
   height: 100px;
   width: 100%;
   position: absolute;
-  top: 50%;
+  top: 60%;
   margin-top: -20%;
   color: #ffffff;
   font-size: 3vh;
