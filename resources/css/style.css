@@ -8,7 +8,7 @@ html {
 #background-fixed-image {
   position: relative;
   height: 1010px;
-  background: url('../images/background-image-1.jpg');
+  background: url('../images/background-image-1.png');
   background-size: auto auto;
   background-position: top center;
   background-attachment: fixed;
