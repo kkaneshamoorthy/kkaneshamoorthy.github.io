@@ -8,4 +8,8 @@ $(window).scroll(function(){
   $('.scroll-down').css({
     'transform' : 'translate(0px, ' + wScroll/8 + '%)'
   });
+
+
+
+
 });

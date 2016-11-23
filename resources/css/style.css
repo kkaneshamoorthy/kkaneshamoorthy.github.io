@@ -22,32 +22,14 @@ html {
 }
 
 #title, .lead {
-  color: #ffffff;
+  color: #888888;
   font-size: 3vh;
   font-size: 3vw;
-}
-
-#work-experience {
-  margin: 0 auto;
-  text-align: center;
-  max-width: 740px;
-  padding: 120px 0;
-  height: 980px ;
-}
-
-#work-experience-title-container {
-  height: 50px;
-  width: 100%;
-  position: absolute;
-  color: black;
-  font-size: 3vh;
-  font-size: 3vw;
-  font-family: 'Alegreya Sans', sans-serif;
 }
 
 h1 {
   padding-bottom: 10px;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid #888888;
   border-bottom-color: black;
   display: inline-block;
 }
@@ -56,8 +38,22 @@ h1 {
   border-bottom-color: rgba(255,255,255,0.35);
 }
 
+#work-experience-page {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 75%;
+    padding: 120px 0;
+    height: 980px ;
+    background-color: white;
+    border-radius: 10px;
+}
+
+body {
+    background: url('../images/background-image-1.png');
+}
+
 .scroll-down .glyphicon {
-	color: #FFFFFF;
+	color: #888888;
 	font-size: 30px;
 	padding-right: 2px;
 	padding-top: 20px;
@@ -76,7 +72,7 @@ h1 {
 .scroll-down {
   position: absolute;
   height: 80px; width: 10%;
-  bottom: 0px;
+  bottom: 50px;
   margin-left: auto;
   margin-right: auto;
   left: 0;
